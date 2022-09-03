@@ -1,0 +1,139 @@
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/TeX.pool.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/eTeX.pool.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/pdfTeX.pool.ltxml... 0.01 sec) 0.23 sec)
+latexmlc (LaTeXML version 0.8.6)
+invoked as [/usr/bin/latexmlc main.tex --dest=doc.html]
+processing started Sat Sep  3 16:32:59 2022
+(Digesting TeX main...
+(Processing content /home/user/1/main.tex...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/LaTeX.pool.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/textcomp.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex-dev/base/ts1enc.dfu... 0.03 sec) 1.05 sec) 1.34 sec)
+Warning:missing_file:extreport Can't find binding for class extreport (using OmniBus)
+	at main.tex; line 2 col 6 - line 2 col 6
+	Anticipate undefined macros or environments
+	search paths are /home/user/1, /home/user/1
+	In Core::Definition::Constructor[\docume... /usr/share/perl5/vendor_perl/LaTeXML/Package/LaTeX.pool.ltxml; line 60
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/OmniBus.cls.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/article.cls.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/inst_support.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/epsf.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/graphicx.sty.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/graphics.sty.ltxml... 0.01 sec) 0.04 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/aas_macros.sty.ltxml... 0.00 sec) 0.13 sec)
+Info:dependencies:dependencies Loading dependencies for /usr/share/texlive/texmf-dist/tex/latex/extsizes/extreport.cls: exscale
+	at main.tex; line 2 col 6 - line 2 col 6
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/exscale.sty.ltxml... 0.00 sec)
+(Processing content /home/user/preambule.tex...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/babel.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/babel.def.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/config/language.def... 0.13 sec)
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def... 0.01 sec) 1.31 sec) 1.32 sec)
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf...
+Warning:latex:(babel) Package babel Warning: No Cyrillic font encoding has been loaded so far.\MessageBreakA font encoding should be declared before babel.\MessageBreakDefault `T2A' encoding will be loaded
+	at russianb.ldf; line 78 col 5 - line 78 col 5
+	In Core::Definition::Primitive[\GenericW... /usr/share/perl5/vendor_perl/LaTeXML/Package/LaTeX.pool.ltxml; line 5295
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex-dev/base/t2aenc.dfu... 0.12 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/t2a.fontmap.ltxml... 0.00 sec) 0.29 sec)
+Info:latex:(babel)  Package babel Info: Making " an active character
+	at russianb.ldf; line 124 col 0 - line 124 col 24
+Info:latex:(babel)  Package babel Info: Default for \cyrdash is provided
+	at russianb.ldf; line 163 col 0 - line 163 col 66
+ 0.96 sec) 4.29 sec) 4.30 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/fontenc.sty.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/inputenc.sty.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/utf8.def.ltxml... 0.01 sec) 0.02 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/amssymb.sty.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/amsfonts.sty.ltxml... 0.00 sec) 0.04 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/amsmath.sty.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/amsbsy.sty.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/amsgen.sty.ltxml... 0.01 sec) 0.01 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/amstext.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml... 0.01 sec) 0.07 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/multicol.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/indentfirst.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/parskip.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/enumitem.sty.ltxml... 0.01 sec)
+Warning:missing_file:cmap Can't find binding for package cmap
+	at preambule.tex; line 33 col 11 - line 33 col 11
+	Anticipate undefined macros or environments
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/vendor_perl/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/hyperref.sty.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/keyval.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty... 0.03 sec) 0.03 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/nameref.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/url.sty.ltxml... 0.00 sec) 0.13 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/listings.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg... 0.02 sec) 0.14 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/wasysym.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/geometry.sty.ltxml...
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/ifpdf.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/ifvtex.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/ifxetex.sty.ltxml... 0.00 sec) 0.03 sec) 5.06 sec)
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+Warning:uninitialized:value Use of uninitialized value value in join or string
+	at at /usr/share/perl5/vendor_perl/LaTeXML/Package.pm line 1547, <$IN> line 3
+	In Core::Definition::Primitive[\DeclareM... /usr/share/perl5/vendor_perl/LaTeXML/Package/amsopn.sty.ltxml; line 29
+(Processing content /home/user/1/title.tex... 0.02 sec)
+(Processing content /home/user/1/body.tex...
+Warning:undefined:chapter Counter 'chapter' was not defined; assuming 0
+	at body.tex; line 13 col 0 - line 13 col 92
+	In Core::Definition::Constructor[\@@numb... /usr/share/perl5/vendor_perl/LaTeXML/Package/LaTeX.pool.ltxml; line 648
+ 1.10 sec) 8.00 sec) 8.01 sec)
+(Building...
+(Loading compiled schema /usr/share/perl5/vendor_perl/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.02 sec) 0.93 sec)
+(Rewriting... 0.00 sec)
+(Math Parsing 4 formulae ......
+Warning:not_parsed:UNKNOWN.UNKNOWN>MULOP MathParser failed to match rule 'Anything'
+	at body.tex; line 96 col 164 - line 96 col 164
+	In "$\frac{kg\times}{m}$"
+	k[[UNKNOWN]] g[[UNKNOWN]]
+	        > ×[[MULOP]]
+ 0.05 sec)
+Math parsing succeeded:
+   ltx:XMArg: 2/3
+   ltx:XMath: 4/4
+Symbols assumed as simple identifiers (with # of occurences):
+   'C{italic}' (1), 'H{italic}' (1), 'M{italic}' (1), 'P{italic}' (1), 'a{italic}' (1), 'c{italic}' (1), 'g{italic}' (3), 'k{italic}' (3)
+Set MATHPARSER_SPECULATE to speculate on possible notations.
+(Finalizing... 0.02 sec)
+Conversion complete: 14 warnings; 2 missing files[cmap.sty, extreport.cls] (See /home/user/1/main.latexml.log)
+(post-processing...
+(Scan doc.html processing...
+Scan: DBStatus: 77/0 objects
+ 0.03 sec)
+(CrossRef doc.html processing... 0.01 sec)
+(MathML::Presentation doc.html 4 to process...
+converted 4 Maths
+ 0.01 sec)
+(XSLT[using LaTeXML-html5.xsl] doc.html processing... 0.02 sec)
+(Writer doc.html processing... 0.00 sec) 0.07 sec)
+Post-processing complete: No obvious problems
+processing finished Sat Sep  3 16:33:09 2022
+Status:conversion:1
