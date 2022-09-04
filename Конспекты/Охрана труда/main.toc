@@ -1,4 +1,0 @@
-\babel@toc {russian}{}
-\contentsline {chapter}{\numberline {1}Идентификация и воздействие на человека негативных факторов производственной среды}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Основные понятия и терминологии безопасности труда}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Классификация опасных и вредных производственных факторов}{5}{section.1.2}%
