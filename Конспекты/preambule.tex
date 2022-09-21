@@ -2,24 +2,35 @@
 %Автор - Краснов Александр 2022
 
 %Настройка языка и отображения
-\usepackage[russian]{babel}
+\usepackage[russian]{babel, varioref}
 %Шрифты
 \usepackage[T2A]{fontenc}		%Русские шрифты
 %\usefont{T2A}{Tempora-TLF}{m}{n}
 %\usepackage{lmodern}			%Шрифт Latin Modern, нужен если нет cm-super
 
-\usepackage[utf8]{inputenc}		%Кодировка
+\usepackage{psnfss}				%PostScript шрифты
+
+
+%Кодировка
+\usepackage[utf8]{inputenc, cyrillic}
+
 \usepackage{amssymb,amsmath}	%Математические символы
 \usepackage{multicol}			%Несколько колонок
 %\usepackage{color}				%Использовать цветной текст
 
 \usepackage{graphicx}			%Пикчи
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
-\frenchspacing					%Отключает большой пробел между предложениями
+%\usepackage{ﬂafter}			%Гарантирует, что любой плавающий объект, т. е. рисунок или таблица, оформленные с помощью процедур figure или table, не появится в печатном документе до первой ссылки на него
 
 \usepackage{indentfirst}		%Красная строка
+\frenchspacing					%Отключает большой пробел между предложениями
 \setlength{\parindent}{1.25cm}	%Настройка отступа красной строки для шрифта 14pt, по умолчанию 15pt
 \linespread{1.25} 				%Межстрочный интервал
+
+\usepackage{makeidx}			%Используется для генерации алфавитного указателя
+\usepackage{showidx}			%Печатает аргумент каждой команды \index, которая метит термины для алфавитного указателя, на полях той страницы, куда эта команда попадает
+\usepackage{shortvrb}			%Вводит краткий вариант команды \verb
+
 
 \usepackage{parskip} 			%Интервал между абзацами
 \setlength{\parindent}{1cm} 	%Настройка интервала между абзацами, по умолчанию будет 0
