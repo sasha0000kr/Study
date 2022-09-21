@@ -1,0 +1,10 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}Шум}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Механический шум}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Аэродинамические и гидродинамические шумы}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Шумы электромагнитного происхождения}{4}{section.2}%
+\contentsline {section}{\numberline {3}Классификация шумов, воздействующих на человек}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}По характеру спектра шум делится}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}По временным характеристикам шум делится}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Непостоянные шумы подразделяют}{5}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Методы измерения шума на рабочих местах (в соответствии с ГОСТ 12.1.050-86 «Методы измерения шума на рабочих местах»)}{6}{section.4}%
