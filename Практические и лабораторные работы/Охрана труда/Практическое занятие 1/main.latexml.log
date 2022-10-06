@@ -1,27 +1,0 @@
-latexml (LaTeXML version 0.8.6) processing main.tex
-(Digesting TeX main...
-(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/TeX.pool.ltxml...
-(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/eTeX.pool.ltxml... 0.01 sec)
-(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/pdfTeX.pool.ltxml... 0.01 sec) 0.27 sec)
-(Processing content /home/user/ÐÐ¾ÐºÑÐ¼ÐµÐ½ÑÑ/Ð£ÑÐµÐ±Ð°/ÐÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¸Ðµ Ð¸ Ð»Ð°Ð±Ð¾ÑÐ°ÑÐ¾ÑÐ½ÑÐµ/ÐÑÑÐ°Ð½Ð° ÑÑÑÐ´Ð°/ÐÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¾Ðµ Ð·Ð°Ð½ÑÑÐ¸Ðµ 1/main.tex...
-(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/LaTeX.pool.ltxml...
-(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/textcomp.sty.ltxml... 0.01 sec) 0.28 sec)
-(Loading /usr/share/perl5/vendor_perl/LaTeXML/Package/article.cls.ltxml... 0.02 sec)
-Error:missing_file:preambule.tex Can't find TeX file preambule.tex
-	at main.tex; line 2 col 0 - line 2 col 23
-	search paths are /home/user/ÐÐ¾ÐºÑÐ¼ÐµÐ½ÑÑ/Ð£ÑÐµÐ±Ð°/ÐÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¸Ðµ Ð¸ Ð»Ð°Ð±Ð¾ÑÐ°ÑÐ¾ÑÐ½ÑÐµ/ÐÑÑÐ°Ð½Ð° ÑÑÑÐ´Ð°/ÐÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¾Ðµ Ð·Ð°Ð½ÑÑÐ¸Ðµ 1
-	Next token is T_SPACE[U+000a/LF] ( == T_SPACE[U+000a/LF])
-	In Core::Definition::Primitive[\include {}] /usr/share/perl5/vendor_perl/LaTeXML/Package/LaTeX.pool.ltxml; line 4031
-	 <= Core::Stomach[@0x564d5a6f34b8] <= ...
-Info:unexpected:options Unused global options: 12dd
-	at main.tex; line 8 col 0 - line 8 col 16
- 1.41 sec) 1.69 sec)
-(Building...
-(Loading compiled schema /usr/share/perl5/vendor_perl/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.01 sec) 0.96 sec)
-(Rewriting... 0.00 sec)
-(Math Parsing 3 formulae ...... 0.01 sec)
-Math parsing succeeded:
-   ltx:XMArg: 6/6
-   ltx:XMath: 3/3
-(Finalizing... 0.02 sec)
-Conversion complete 1 error; 1 missing file[preambule.tex] (See /home/user/ÐÐ¾ÐºÑÐ¼ÐµÐ½ÑÑ/Ð£ÑÐµÐ±Ð°/ÐÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¸Ðµ Ð¸ Ð»Ð°Ð±Ð¾ÑÐ°ÑÐ¾ÑÐ½ÑÐµ/ÐÑÑÐ°Ð½Ð° ÑÑÑÐ´Ð°/ÐÑÐ°ÐºÑÐ¸ÑÐµÑÐºÐ¾Ðµ Ð·Ð°Ð½ÑÑÐ¸Ðµ 1/main.latexml.log) (reqd. 2.97s)
