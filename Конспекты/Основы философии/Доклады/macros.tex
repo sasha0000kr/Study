@@ -1,0 +1,36 @@
+\newcommand{\labor}[1]{\chapter{#1}}
+\newcommand{\purpose}{\paragraph{Цель работы:}}
+\newcommand{\units}{{\section{Описание оборудования}}
+\newcommand{\theory}{\section{Теоретические сведения}}
+\newcommand{\practice}{\section{Выполнение лабораторной работы}}}
+\newcommand{\tasks}{\subsection*{\normalsize{Ход работы}}}
+\newcommand{\conclusion}{\paragraph{Вывод:}}
+
+
+\newcommand{\scheme}{\subsection{Электрическая схема}}
+\newcommand{\demo}{\subsection{Проверка работоспособности}}
+\newcommand{\mod}{\subsection{Внешний вид устройства}}
+\newcommand{\prog}{\subsection{Управляющая программа}}
+
+
+\newcommand{\standartunits}{\input{files/standartunits.tex}}
+\newcommand{\standarttasks}{\input{files/standarttasks.tex}}
+
+
+\newcommand{\makepractice}{\practice\tasks\input{files/standarttasks.tex}}
+\newcommand{\makeconclusion}{\conclusion{В ходе работы были применены знания о базовом программировании на Arduino. Составлена схема и программа для управления ею. Также проведена работа по оптимизации программного кода. Практическое задание выполнено успешно!}}
+
+
+\newcommand{\makeunits}{\section{\large{Описание оборудования}} \input{files/standartunits.tex}}
+
+\makeatletter
+\renewcommand{\@makechapterhead}[1]{
+{\parindent=0pt \centering \normalfont\Large\bfseries
+\center{Лабораторная работа №~\thechapter}
+\center{\normalfont\Large\bfseries <<#1>>} \par
+\nopagebreak \vspace{0.5cm} } }
+\renewcommand{\@makeschapterhead}[1]{
+{\parindent=0pt
+\center{\normalfont\large\bfseries #1} \par
+\nopagebreak \vspace{0.5cm} }}
+\makeatother
