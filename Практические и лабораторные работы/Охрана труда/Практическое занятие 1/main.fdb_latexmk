@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1665054912 "/home/user/Документы/Учеба/Практические и лабораторные работы/Охрана труда/Практическое занятие 1/main.tex" "main.pdf" "main" 1665054914
+["pdflatex"] 1665745291 "/home/user/Документы/Учеба/Практические и лабораторные работы/Охрана труда/Практическое занятие 1/main.tex" "main.pdf" "main" 1665745293
   "/home/user/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/labx1000.tfm" 1661888824 3300 6abb8e321227ead2a8e929e5abc72bd3 ""
   "/home/user/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1661888687 3308 eee81981029f67083258db36df06e523 ""
   "/home/user/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1662029058 3304 6a543c07045572737981351171e0505e ""
@@ -9,7 +9,7 @@
   "/home/user/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1661888819 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/user/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/lati1000.tfm" 1662823705 3528 defd551e32c4af414f9b54b8101bfa9b ""
   "/home/user/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1660567687 1345254 9fba5b0cac2108c853cf8194788ec8de ""
-  "/home/user/Документы/Учеба/Практические и лабораторные работы/Охрана труда/Практическое занятие 1/main.tex" 1665054909 15526 c4fffdb193c6763ae9605e1ae62f3d9e ""
+  "/home/user/Документы/Учеба/Практические и лабораторные работы/Охрана труда/Практическое занятие 1/main.tex" 1665745290 15526 c4fffdb193c6763ae9605e1ae62f3d9e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1136849721 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -130,10 +130,10 @@
   "data/2.png" 1664317066 151721 78dc1b87e8a433207d8d7b65fee2c1bf ""
   "data/3.png" 1664316399 152864 5375bf4495403684bd386a0223370606 ""
   "hyp.tex" 1665052370 238 e3fdd60bd4fd46c73a14559755cfc858 ""
-  "main.aux" 1665054914 2414 aed2e67afac61a3066c2cfcb54ce14f1 "pdflatex"
-  "main.out" 1665054914 3024 c6fcd6213052c66a031fe22de9108fa1 "pdflatex"
-  "main.tex" 1665054909 15526 c4fffdb193c6763ae9605e1ae62f3d9e ""
-  "main.toc" 1665054914 1241 48719b14e23009e436c57188d11aa2c5 "pdflatex"
+  "main.aux" 1665745293 2414 aed2e67afac61a3066c2cfcb54ce14f1 "pdflatex"
+  "main.out" 1665745293 3024 c6fcd6213052c66a031fe22de9108fa1 "pdflatex"
+  "main.tex" 1665745290 15526 c4fffdb193c6763ae9605e1ae62f3d9e ""
+  "main.toc" 1665745293 1241 48719b14e23009e436c57188d11aa2c5 "pdflatex"
   "preambule.tex" 1665054899 5606 735907309b25f8df241e49d3f280006b ""
   (generated)
   "hyp.aux"
