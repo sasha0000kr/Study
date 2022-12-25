@@ -10,17 +10,10 @@
 \include{metadata}
 %Титульник
 \include{titlepage}
-
+%Содержание
 {\renewcommand{\bfseries}{\relax} %Костыли
 \renametibleofcontent
 \tableofcontents}
-
-%\input{attlist}
-
-%Содержание
-\clearpage
-
-
 %Тело документа
 \input{files/1.tex}
 \input{files/2.tex}
@@ -28,35 +21,13 @@
 \input{files/4.tex}
 \input{files/5.tex}
 \input{files/6.tex}
-%\include{files/5}
-%\include{files/6}я документа
-
 %Заключение
 \include{files/final.tex}
 %Библиография
 \renamebiblio
 \include{biblio}
-
 \clearpage
 \pagestyle{empty}
 \newpage
 \input{dnevnik}
-
-
-
 \end{document}
-%[ ]Введение
-%[x]Техника безопасности
-%[x]Ознакомление с набором
-%[x]Сборка роботов по инструкции
-%[x]Самостоятельная сборка
-%   [x]%обзор
-%   [x]%описание
-%   [x]%сборка
-%   [x]%подключение
-%   [x]%испытание
-%   [x]устранение неисправностей
-%[x]Заключение
-%[ ]Библиография
-
-%Надо сделать аттестационный лист и дневник по практик
