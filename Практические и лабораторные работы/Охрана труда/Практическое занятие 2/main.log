@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.15)  6 OCT 2022 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.8.15)  24 NOV 2022 22:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,8 +23,8 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-\@input{preambule.aux}
-\openout2 = `preambule.aux'.
+\@input{./preambule.aux}
+\openout2 = `./preambule.aux'.
 
 (./preambule.tex (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2021/04/26 3.58 The Babel package
@@ -597,8 +597,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen176
 \Gm@dimlist=\toks26
 )
-\@input{hyp.aux}
-\openout2 = `hyp.aux'.
+\@input{./hyp.aux}
+\openout2 = `./hyp.aux'.
 
 (./hyp.tex) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
@@ -612,27 +612,27 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Info: Redefining \th on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Info: Redefining \th on input line 8.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count302
@@ -658,7 +658,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 9.
+Package hyperref Info: Link coloring ON on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -668,9 +668,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
+LaTeX Info: Redefining \ref on input line 8.
+LaTeX Info: Redefining \pageref on input line 8.
+LaTeX Info: Redefining \nameref on input line 8.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -712,15 +712,15 @@ LaTeX Info: Redefining \nameref on input line 9.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 <<t2a.cmap>><<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 11.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 10.
  (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 ) (./main.toc)
@@ -736,153 +736,125 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 1194) in paragraph at lines 24--26
-[]\T2A/cmr/m/it/10 Шум \T2A/cmr/m/n/10 --- это звук, оцениваемый негативно и наносящий- вред
+Underfull \hbox (badness 1117) in paragraph at lines 17--18
+[]\T2A/cmr/m/n/10 Выполнение работ в сопряжено с неблагоприятным влиянием
  []
 
 
-Overfull \hbox (1.95389pt too wide) in paragraph at lines 24--26
-\T2A/cmr/m/n/10 различают шумы механического, аэродинамического и электромагнитного
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\T2A/cmr/m/n/10 воздействия шахтной окружающей среды применяют различные
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-\T2A/cmr/m/n/10 источниками которого являются зубчатые передачи, механизмы
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\T2A/cmr/m/n/10 применяют противопылевые респираторы. В соответствии с
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 28--29
-\T2A/cmr/m/n/10 ударного типа, цепные передачи, подшипники качения и т.п. Он
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\T2A/cmr/m/n/10 требованиями Правил безопасности их следует рассматривать
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 28--29
-\T2A/cmr/m/n/10 материалов в трубопроводах и т.п. Спектр механического шума
+Underfull \hbox (badness 8113) in paragraph at lines 21--22
+\T2A/cmr/m/n/10 как вспомогательное средство профилактики пневмокониоза при
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-\T2A/cmr/m/n/10 занимает широкую область частот. Определяющими факторами
+Underfull \hbox (badness 5345) in paragraph at lines 21--22
+\T2A/cmr/m/n/10 обязательном осуществлении комплекса основных противопылевых
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 28--29
-\T2A/cmr/m/n/10 оборотов, механические свойства материала, состояние поверхностей
+Underfull \hbox (badness 2042) in paragraph at lines 21--22
+\T2A/cmr/m/n/10 мероприятий на всех тех-но-ло-ги-чес-ких процессах добычи полезных
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 28--29
-\T2A/cmr/m/n/10 к которым относится, например, кузнечно-прессовое оборудование,
+Underfull \hbox (badness 3895) in paragraph at lines 21--22
+\T2A/cmr/m/n/10 госгортехнадзора, госсанинспекции при невозможности применения
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 32--33
-\T2A/cmr/m/n/10 работой винтовых насосов и компрессоров, пневматических
+Underfull \hbox (badness 1484) in paragraph at lines 23--24
+[]\T2A/cmr/m/n/10 По конструктивному исполнению различают две группы рес-
  []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 23--24
+\T2A/cmr/m/n/10 пи-ра-то-ров: респираторы многоразового использования со сменными
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 23--24
+\T2A/cmr/m/n/10 фильтрами и респираторы кратковременного (одно-, двукратного)
+ []
+
+<1.jpg, id=31, 163.3603pt x 69.22705pt>
+File: 1.jpg Graphic file (type jpg)
+<use 1.jpg>
+Package pdftex.def Info: 1.jpg  used on input line 29.
+(pdftex.def)             Requested size: 163.3599pt x 69.22687pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2
 
 ]
-Underfull \hbox (badness 4467) in paragraph at lines 33--34
-\T2A/cmr/m/n/10 границ. Эти шумы наиболее характерны для вентиляторов,
+Underfull \hbox (badness 4229) in paragraph at lines 37--38
+\T2A/cmr/m/n/10 на ней пластмассовой коробкой, в которой помещается сменный
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 34--35
-[]\T2A/cmr/m/n/10 кавитационный шум, возникающий в жидкостях из-за потери
+Underfull \hbox (badness 1845) in paragraph at lines 39--40
+\T2A/cmr/m/n/10 клапанами вдоха и выдоха. По внешнему периметру маска имеет
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 38--39
-\T2A/cmr/m/n/10 электротехнических изделиях (например, при работе электрических
+Underfull \hbox (badness 1137) in paragraph at lines 41--42
+[]\T2A/cmr/m/n/10 Для работающих в выработке при повышенной запыленности
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 40--40
-[]\T2A/cmr/bx/n/14.4 Классификация шумов, воздействующих
- []
-
-[3]
-Underfull \hbox (badness 3646) in paragraph at lines 54--55
-[]\T2A/cmr/m/n/10 на колеблющийся во времени шум, уровень звука которого
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 59--59
-[]\T2A/cmr/bx/n/14.4 Методы измерения шума на рабочих
- []
-
-[4]
-Underfull \hbox (badness 2119) in paragraph at lines 64--65
-\T2A/cmr/m/n/10 следует проводить в рабочей зоне в точке наиболее частого
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 65--66
-\T2A/cmr/m/n/10 в положение "фильтр". Октавные уровни звукового давления
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 65--66
-\T2A/cmr/m/n/10 уровней звука, дБА, переключатель частотной ха-рак-те-рис-ти-ки
- []
-
-
-Underfull \hbox (badness 5147) in paragraph at lines 66--67
-\T2A/cmr/m/n/10 Значения уровней принимают по средним показателям при
+Underfull \hbox (badness 3428) in paragraph at lines 41--42
+\T2A/cmr/m/n/10 Астра-2М, Ф62Ш, РП-КМ, а при выполнении легкой и средней
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-<data/1.png, id=113, 597.31155pt x 845.19765pt>
-File: data/1.png Graphic file (type png)
-<use data/1.png>
-Package pdftex.def Info: data/1.png  used on input line 81.
-(pdftex.def)             Requested size: 358.3897pt x 507.1225pt.
-
-Overfull \hbox (22.64716pt too wide) in paragraph at lines 81--83
- [][] 
+ [3 <./1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]\T2A/cmr/m/n/10 Противогазы, респираторы, простейшие средства защиты
  []
 
-<data/2.png, id=114, 597.31155pt x 845.19765pt>
-File: data/2.png Graphic file (type png)
-<use data/2.png>
-Package pdftex.def Info: data/2.png  used on input line 87.
-(pdftex.def)             Requested size: 358.3897pt x 507.1225pt.
 
-Overfull \hbox (22.64716pt too wide) in paragraph at lines 87--89
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+\T2A/cmr/m/n/10 (противопыльные тканевые маски ПТМ-1, ватно-марлевые
  []
 
-<data/3.png, id=115, 597.31155pt x 845.19765pt>
-File: data/3.png Graphic file (type png)
-<use data/3.png>
-Package pdftex.def Info: data/3.png  used on input line 93.
-(pdftex.def)             Requested size: 358.3897pt x 507.1225pt.
 
-Overfull \hbox (22.64716pt too wide) in paragraph at lines 93--95
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[]\T2A/cmr/m/n/10 Респираторы многоразового использования со сменными
  []
 
-[6] [7 <./data/1.png>] [8 <./data/2.png>] [9 <./data/3.png>] (./main.aux)
+[4] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C6FCD6213052C66A031FE22DE9108FA1;3024.
+(rerunfilecheck)             Checksum: 52EEC03ED53F1FDD5FC2D61AF6797B5A;494.
  ) 
 Here is how much of TeX's memory you used:
- 13781 strings out of 480806
- 193903 string characters out of 5905151
- 516224 words of memory out of 6000000
- 30845 multiletter control sequences out of 15000+600000
- 417627 words of font info for 67 fonts, out of 8000000 for 9000
- 21 hyphenation exceptions out of 8191
- 67i,7n,68p,1906b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (9 pages, 504835 bytes).
+ 13714 strings out of 480806
+ 193132 string characters out of 5905151
+ 515390 words of memory out of 6000000
+ 30819 multiletter control sequences out of 15000+600000
+ 414731 words of font info for 56 fonts, out of 8000000 for 9000
+ 30 hyphenation exceptions out of 8191
+ 67i,6n,68p,1425b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on main.pdf (4 pages, 110618 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
+ 42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
