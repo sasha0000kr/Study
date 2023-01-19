@@ -1,0 +1,31 @@
+%\renewcommand\contentsname{СОДЕРЖАНИЕ}
+
+
+
+
+
+\makeatletter
+\renewcommand{\@makechapterhead}[1]{
+{\parindent=0pt \normalfont\normalsize
+\center{\thechapter\ \textsc\normalfont\normalsize #1} \par
+\nopagebreak \vspace{\bigskipamount} } }
+\renewcommand{\@makeschapterhead}[1]{
+{\parindent=0pt
+\center{\textsc\normalfont\normalsize #1} \par
+\nopagebreak \vspace{\bigskipamount} } }
+\makeatother
+
+%\makeatletter
+%\renewcommand\section{\@startsection {section}{1}{\z@}%
+%{0}%
+%{-1em}%
+%{\normalfont\normalsize}}
+%
+%\makeatother
+
+%\makeatletter
+%\renewcommand\section{\@startsection {section}{1}{\z@}%
+%{-3.5ex \@plus -1ex \@minus -.2ex}%
+%{2.3ex \@plus.2ex}%
+%{\normalfont\normalsize}}
+%\makeatother
