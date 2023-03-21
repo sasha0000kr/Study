@@ -1,0 +1,141 @@
+% !TeX spellcheck = ru_RU
+%Настройка страниц
+
+\usepackage[left=30mm, right=15mm, top=20mm, bottom=20mm, headsep=1cm, footskip=1cm]{geometry}
+%twoside, openany,%
+
+%Настройка языка и отображения
+\usepackage{cmap}				%Ссылки в PDF
+\usepackage[T2A]{fontenc}		%Шрифты
+\usepackage[utf8]{inputenc}		%Кодировка
+%\usepackage{lmodern}			%Хз, не трогать
+\usepackage[russian]{babel}		%Грамматика
+\usepackage{graphicx,svg}		%Пикчи
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\frenchspacing					%Отключает большой пробел между предложениями
+
+\usepackage[nodisplayskipstretch]{setspace}
+\usepackage{indentfirst}		%Красная строка
+\setlength{\parindent}{1.25cm}	%Настройка отступа красной строки для шрифта
+%\linespread{1.3} 				%Межстрочный интервал
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{microtype}          %Пиздатый графон
+
+%\usepackage{parskip} 			%Интервал между абзацами
+%\setlength{\parindent}{1.5} 	%Настройка интервала между абзацами, по умолчанию будет 0
+
+\usepackage{enumitem}           %Фикс списков
+\setlist{noitemsep}             %Убираем расстояние между элементами списка
+
+%\pagestyle{empty} 				%Использование стандартных колонитулов
+
+\usepackage{fancyhdr}			%Колонтитулы
+%\pagestyle{fancy} 				%Использование кастомных колонитулов
+%\fancyhf{} 					%Отчистить все колонтитулы
+%\lhead{} 						% левый верхний колонтитул
+%\chead{} 						% центральный верхний
+%\rhead{} 						% правый верхний
+%\lfoot{} 						% левый нижний
+%\cfoot{\thepage} 				% центральный нижний
+%\rfoot{} 						% правый нижний
+
+
+%Оглавление
+\setcounter{tocdepth}{3}        %Уровни оглавления
+%4 это chapter, section, subsection, subsubsection и paragraph;
+%3 это chapter, section, subsection и subsubsection;
+%2 это chapter, section, и subsection;
+%1 это chapter и section;
+%0 это chapter.
+
+%Фикс таблиц и рисунков
+\usepackage[tableposition=top]{caption}
+\usepackage{subcaption}
+\DeclareCaptionLabelFormat{gostfigure}{Рисунок #2}
+\DeclareCaptionLabelFormat{gosttable}{Таблица #2}
+\DeclareCaptionLabelSeparator{gost}{~---~}
+\captionsetup{labelsep=gost}
+\captionsetup[figure]{labelformat=gostfigure}
+\captionsetup[table]{labelformat=gosttable}
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}
+%По стандарту название рисунка располагается под рисунком, а название таблицы — над таблицей.
+%Следить за этими расположениями вам придется самостоятельно, но пакету можно подсказать об этом
+%законе, чтобы он оптимизировал выделение пустого места соответствующим образом.
+
+
+\newcommand{\ii}{\textit}
+%\newcommand{\bb}{\textbf}
+\newcommand{\uu}{\underline}
+%\newcommand{\m}{\texttt}
+%\newcommand{\box}{\fbox}
+
+
+%Переопределение заголовков
+\usepackage{titlesec}
+
+\titleformat{\chapter}
+    {\filcenter\bfseries}
+    {\thechapter}
+    {1em}{}
+ 
+\titleformat{\section}
+    {\normalsize\bfseries}
+    {\thesection}
+    {1em}{}
+ 
+\titleformat{\subsection}
+    {\normalsize\bfseries}
+    {\thesubsection}
+    {1em}{}
+
+% Настройка вертикальных и горизонтальных отступов
+\titlespacing*{\chapter}{0pt}{-30pt}{8pt}
+\titlespacing*{\section}{\parindent}{*1.3}{*1.3}
+\titlespacing*{\subsection}{\parindent}{*1.3}{*1.3}
+
+
+%\usepackage{blindtext}          %Затычка для тестов
+
+\usepackage{tocloft} %регулировка расположения TableOfContent (Оглавления) на странице
+\newcommand{\renametibleofcontent}{\renewcommand\contentsname{СОДЕРЖАНИЕ}}
+\renewcommand{\cfttoctitlefont}{\hspace{0.38\textwidth}\MakeUppercase} %уменьшаем размер шрифта и ровняем по центру
+%
+%\let\LaTeXStandardTableOfContents\tableofcontents
+%\renewcommand{\tableofcontents}{%
+%\begingroup%
+%\renewcommand{\bfseries}{\relax}%
+%\LaTeXStandardTableOfContents%
+%\endgroup%
+%}%%Отключаем жирный шрифт в оглавлении
+
+ % Межстрочные отступы в Оглавлении:
+\setlength{\cftbeforetoctitleskip}{-10mm} %отступ Оглавления от верхнего поля страницы.
+\setlength{\cftbeforechapskip}{\medskipamount} %отступ между главами
+\setlength{\cftbeforesecskip}{\medskipamount} %отступ между секциями \section{title}
+
+% % Отступы от левого поля:
+\setlength{\cftchapindent}{0em} %отступ между левым полем и \chapter{}
+\setlength{\cftsecindent}{1.25cm} %отступ между левым полем и \section{title}
+\setlength{\cftsubsecindent}{2.5cm} %отступ между левым полем и \subsection{title}
+% % Отточия в Оглавлении
+\renewcommand\cftchapdotsep{\cftdot} %добавляет отточия после \chapter{title}
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}} %делает отточия после \chapter{title} тонкими, (по умолчанию жирные).
+\renewcommand\cftsecdotsep{\cftdot} %делает отточия после \section{title} частыми.
+\renewcommand\cftsubsecdotsep{\cftdot} %делает отточия после \subsection{title} частыми.
+\cftsetpnumwidth{1em} %Отступ точек от номера страницы
+\makeatletter \renewcommand{\@dotsep}{1} \makeatother
+
+\newcommand{\renamebiblio}{\renewcommand{\bibname}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}}
+
+
+
+%Красивые настройки
+\usepackage{footmisc}           %Пакет для постраничной а не сквозной нумерации сносок
+\usepackage{makecell}
+\usepackage{multirow}           %Улучшенное форматирование таблиц
+\usepackage{ulem}               %Подчеркивания
+
+\usepackage{enumitem}
+\setlist{noitemsep}
