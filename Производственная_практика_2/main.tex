@@ -1,0 +1,37 @@
+\documentclass[a4paper, 14pt]{extreport}
+\input{preambule}
+\input{fonts}
+\input{G7-32.sty}
+%Словарь переносов
+\input{hyp}
+\begin{document}
+%\input{macros.tex}
+%Метаданные документа
+\include{metadata}
+%Титульник
+\include{titlepage}
+%Содержание
+{\renewcommand{\bfseries}{\relax} %Костыли
+\renametibleofcontent
+\tableofcontents}
+%Тело документа
+\input{files/1.tex}
+\input{files/2.tex}
+\input{files/3.tex}
+\input{files/4.tex}
+\input{files/5.tex}
+\input{files/6.tex}
+\input{files/7.tex}
+%Заключение
+%\pagestyle{empty}
+\include{files/8.tex}
+\include{files/9.tex}
+
+%Библиография
+\renamebiblio
+%\include{biblio}
+%\clearpage
+%\pagestyle{empty}
+%\newpage
+%\input{dnevnik}
+\end{document}
