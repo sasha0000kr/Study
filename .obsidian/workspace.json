@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "23513ec7ed05e8f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "100f951200bddb7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee8f40916600a7dc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "617236bc25311df9",
+    "type": "split",
+    "children": [
+      {
+        "id": "4c24b7261ffc5bfa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "beba40846c348fff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8aceee01b0bc4106",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ff0f7c1b86f6ce03",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "56ddbd2dd0c0b928",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "1ab246ed090947a6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "26bac07327d74e7b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "a2b119cee9670bcf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e0f56f7b920ff5d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ad37dd83ec358b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "49a163f5c04a0204",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7c9076ff40752f2c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1ed2fc13f8db835d",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "2e638f15b60b09d3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "19af8512e9d5ba1b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6c645db99391f95b",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "174dd1bd42f9a762",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
+      "workspaces:Пространства": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "174dd1bd42f9a762",
+  "lastOpenFiles": [
+    "Конструкция ветвления и циклов в Python. Составление алгоритмов и их программная реализация инструкций if, for, while..md",
+    "Операторы print, input. Пространства имен и области видимости. Разработка первых программ..md",
+    "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..md",
+    "Welcome.md",
+    "Без названия.canvas",
+    "res/Pasted image 20240118220725.png",
+    "Операторы print, input. Пространства имен и области видимости. Разработка первых программ..html",
+    "res/Pasted image 20240118134953.png",
+    "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..epub",
+    "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..pdf",
+    "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..html",
+    "res/77c99d77-96e6-4038-9d77-a8115dda40b6.png",
+    "res/Pasted image 20240113143542.png",
+    "res/Pasted image 20240113143237.png",
+    "res/Pasted image 20240113143704.png",
+    "res",
+    "^1.md",
+    "Новая папка",
+    "res/e761fcca-854a-49a0-9a5b-584de0d51a8b.png",
+    "res/7893cd64-2a37-460f-b4cd-4d1c3c53bb1e.png",
+    "res/c7916f30-cce7-4708-9458-64d8947c2cb7.png",
+    "res/9167f055-150b-48a9-bd92-d0e9b48e7672.png",
+    "Attachments",
+    "HTML import",
+    "Untitled-1.html"
+  ]
+}

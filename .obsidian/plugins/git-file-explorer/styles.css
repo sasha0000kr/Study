@@ -1,0 +1,46 @@
+.git-widget {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0.5em;
+    border-radius: 1.5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    transition: background-color 1s ease;
+    color: #d0d0d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5em;
+    height: 1.5em;
+    margin-left: 2em;
+}
+.git-widget:nth-of-type(1) {
+    right: 3em;
+}
+.git-widget-changes {
+    background-color: #b38522;
+    color: #ffffff;
+}
+.git-widget-changes:hover {
+    filter: brightness(120%);
+}
+.git-widget-success {
+    background-color: #129060 !important;
+    color: #ffffff;
+}
+.git-widget-error {
+    background-color: #ff4d4d !important;
+    color: #ffffff;
+}
+.git-widget-sync {
+    background-color: #41697a;
+    color: #ffffff;
+    width: 5.5em;
+}
+.git-widget-sync:hover {
+    filter: brightness(120%);
+}
+.git-changed-file {
+    color: #b38522 !important;
+}
