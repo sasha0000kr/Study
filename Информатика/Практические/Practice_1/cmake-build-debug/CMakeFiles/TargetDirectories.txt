@@ -1,0 +1,3 @@
+D:/sasha/Documents/Study/Информатика/Практические/Practice_1/cmake-build-debug/CMakeFiles/Practice_1.dir
+D:/sasha/Documents/Study/Информатика/Практические/Practice_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/sasha/Documents/Study/Информатика/Практические/Practice_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

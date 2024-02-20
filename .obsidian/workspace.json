@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "100f951200bddb7c",
+        "id": "537d77b856879852",
         "type": "tabs",
         "children": [
           {
-            "id": "ee8f40916600a7dc",
+            "id": "94b726f1ea48de10",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Физика/Физика.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -58,7 +62,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Физика/Физика.md"
+              }
             }
           },
           {
@@ -120,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Физика/Физика.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Физика/Физика.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,35 +209,51 @@
       "workspaces:Пространства": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "audio-recorder:Начать/остановить запись": false
     }
   },
-  "active": "174dd1bd42f9a762",
+  "active": "94b726f1ea48de10",
   "lastOpenFiles": [
+    "Информатика/Практические/Practice_1/README.md",
+    "Информатика/Практические/Practice_1/res/stlink_begin.png",
+    "Информатика/Практические/Practice_1/res/scheme.pdf",
+    "Информатика/Практические/Practice_1/res/programmer.pdf",
+    "Информатика/Практические/Practice_1/res/stlink.png",
+    "Информатика/Практические/Practice_1/res/first_build.png",
+    "Информатика/Практические/Practice_1/res/cubemx_usb_debug.png",
+    "Информатика/Практические/Practice_1/res/datasheet.pdf",
+    "Информатика/Практические/Practice_1/res/cubemx_usb_com.png",
+    "Информатика/Практические/Practice_1/res/cubemx_usb_bus.png",
+    "Информатика/Практические/Practice_1/res/cubemx_select.png",
+    "Информатика/Практические/Practice_1/res/cubemx_project.png",
+    "Информатика/Практические/Practice_1/res/cubemx_periphery.png",
+    "Информатика/Практические/Practice_1/res/cubemx_lib.png",
+    "Информатика/Практические/Practice_1/res",
+    "Информатика/Практические/README.md~",
+    "Информатика/Практические/Practice_1/main.c~",
+    "Информатика/Практические/Practice_1/cmake-build-debug/CMakeFiles/Practice_1.dir/main.c.obj.d",
+    "Информатика/Практические/Practice_1/cmake-build-debug/Practice_1.exe",
+    "Информатика/Практические/Practice_1/cmake-build-debug/CMakeFiles/Practice_1.dir/main.c.obj",
+    "Информатика/Практические/Practice_1/cmake-build-debug/Testing/Temporary/LastTest.log",
+    "Информатика/Практические/Practice 1/README.md",
+    "Информатика/Практические/README.md",
+    "Иностранный язык/Английский язык.md",
+    "Математический анализ/Лекции/Математический анализ.md",
+    "Иностранный язык/Словарь.md",
+    "Иностранный язык/Конспект/Английский язык.md",
+    "Физика/Физика.md",
+    "Без названия 1.md",
+    "Без названия.md",
+    "Информатика/Лекции/Без названия.md",
+    "Информатика/Практические/Практическая работа 1/README.md",
+    "Экономика предприятия и организация производства/Лекции/Предприятие в условиях рыночной экономики.md",
+    "Экономика предприятия и организация производства/Предприятие в условиях рыночной экономики.md",
     "Конструкция ветвления и циклов в Python. Составление алгоритмов и их программная реализация инструкций if, for, while..md",
     "Операторы print, input. Пространства имен и области видимости. Разработка первых программ..md",
     "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..md",
     "Welcome.md",
     "Без названия.canvas",
-    "res/Pasted image 20240118220725.png",
-    "Операторы print, input. Пространства имен и области видимости. Разработка первых программ..html",
-    "res/Pasted image 20240118134953.png",
-    "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..epub",
-    "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..pdf",
-    "Обзор Python. Встроенные и библиотечные типы данных. Переменные. Инициализация и Присваивание. Константы..html",
-    "res/77c99d77-96e6-4038-9d77-a8115dda40b6.png",
-    "res/Pasted image 20240113143542.png",
-    "res/Pasted image 20240113143237.png",
-    "res/Pasted image 20240113143704.png",
-    "res",
-    "^1.md",
-    "Новая папка",
-    "res/e761fcca-854a-49a0-9a5b-584de0d51a8b.png",
-    "res/7893cd64-2a37-460f-b4cd-4d1c3c53bb1e.png",
-    "res/c7916f30-cce7-4708-9458-64d8947c2cb7.png",
-    "res/9167f055-150b-48a9-bd92-d0e9b48e7672.png",
-    "Attachments",
-    "HTML import",
-    "Untitled-1.html"
+    "^1.md"
   ]
 }
